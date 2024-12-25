@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
  
-    <title>圣诞树</title>
+    <title>圣诞快乐！</title>
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
  
@@ -80,6 +80,16 @@
         .text-loading {
             font-size: 2rem;
         }
+
+        .christmas-message {
+            position: absolute;
+            bottom: 30px;
+            font-size: 2rem;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 3s ease-out;
+        }
     </style>
  
     <script>
@@ -124,7 +134,7 @@
             </li>
         </ul>
     </div>
- 
+    <div class="christmas-message">圣诞快乐! 天天开心~</div>
     <script id="rendered-js">
         const { PI, sin, cos } = Math;
         const TAU = 2 * PI;
